@@ -29,25 +29,28 @@
         + 属性值选择符 ` 标签名[属性名="属性值"] `
 
 - 伪类
-    * UI伪类
+    * UI伪类（HTML元素处于某种状态时为该元素应用CSS样式。）
         + Link
         + Visited
         + Hover
         + active
         + ` :focus ` 伪类
         + ` :target ` 伪类
-    * 结构化伪类
+
+    * 结构化伪类（在标记中存在某种结构上的关系时为相应元素设置CSS样式。）
         + :first-child / :last-child
         + :nth-child(n)
 
 - 伪元素
-> 文档中若有实无的元素
+  > 文档中若有实无的元素。
+
     * ::first-letter 首字符
     * ::first-line 第一行
     * :: before / ::after
 
 - 继承
-> 传递css属性的值
+  > 传递css属性的值     
+
     * border 属性不能继承
 
 - 层叠
@@ -63,6 +66,12 @@
         + 三按特指度排序 ICE公式
 
 - 规则声明
+    * CSS属性值
+        + 文本值 （所有CSS属性都有文本值）
+        + 数字值 （绝对值、相对值）
+        + 颜色值
+
+
 
 
 
